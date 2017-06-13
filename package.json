@@ -1,0 +1,32 @@
+{
+  "name": "authed-pouch",
+  "version": "0.0.1",
+  "description": "Authenticated, encrypted pouch/couch with per user db",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pouchdb",
+    "couchdb",
+    "authentication",
+    "user",
+    "management",
+    "encryption"
+  ],
+  "author": "Linus Thiel <linus.thiel@lr.ehealthafrica.org>",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "electron": "^1.6.7",
+    "webpack": "^2.4.1"
+  },
+  "dependencies": {
+    "crypto-pouch": "^3.1.2",
+    "pouchdb-browser": "^6.2.0",
+    "pouchdb-seamless-auth": "^1.0.4"
+  }
+}
