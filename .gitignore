@@ -1,0 +1,4 @@
+babel_cache/
+node_modules/
+bundle.js
+.*.swp
