@@ -27,6 +27,6 @@
   "dependencies": {
     "crypto-pouch": "^3.1.2",
     "pouchdb-browser": "^6.2.0",
-    "pouchdb-seamless-auth": "^1.0.4"
+    "pouchdb-seamless-auth": "^2.0.0"
   }
 }
